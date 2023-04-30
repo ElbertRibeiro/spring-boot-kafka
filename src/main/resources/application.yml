@@ -1,0 +1,12 @@
+# Producer properties
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: 127.0.0.1:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+topic:
+  name:
+    producer: topico.comando.teste
+    consumer: topico.comando.teste
